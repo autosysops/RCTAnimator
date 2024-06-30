@@ -2,7 +2,7 @@
 
 This plugin allows you to animate objects and entities.
 
-![Screenshot](https://github.com/autosysops/OpenRCT2TileCounter/raw/main/screenshot.png "Screenshot")
+![Screenshot](https://github.com/autosysops/RCTAnimator/raw/main/screenshot.png "Screenshot")
 
 ## Usage
 

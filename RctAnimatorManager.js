@@ -2441,7 +2441,7 @@ function triggerEditWindow(animationid, trigger) {
                 triggerInfo.ButtonKeepPressed = getTriggerWindow().findWidget("TriggerButtonKeepPressedCheckbox").isChecked;
                 triggerInfo.FramesToPlay = Number(getTriggerWindow().findWidget("TriggerButtonFramesTextBox").text);
             }
-            if (triggerType = "carOnTrack") {
+            if (triggerType == "carOnTrack") {
                 triggerInfo.CarOnTrackX = Number(getTriggerWindow().findWidget("TriggerCarOnTrackXTextBox").text);
                 triggerInfo.CarOnTrackY = Number(getTriggerWindow().findWidget("TriggerCarOnTrackYTextBox").text);
                 triggerInfo.CarOnTrackZ = Number(getTriggerWindow().findWidget("TriggerCarOnTrackZTextBox").text);
@@ -4107,7 +4107,7 @@ var main = function () {
 // Register the plugin
 registerPlugin({
     name: 'RCTAnimator Manager',
-    version: '0.6',
+    version: '0.7',
     authors: ['AutoSysOps (Levis)'],
     type: 'remote',
     licence: 'MIT',

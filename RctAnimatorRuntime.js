@@ -584,7 +584,7 @@ function buttonMenu(buttons) {
 // Register the plugin
 registerPlugin({
     name: 'RCTAnimator Runtime',
-    version: '0.6',
+    version: '0.7',
     authors: ['AutoSysOps (Levis)'],
     type: 'remote',
     licence: 'MIT',

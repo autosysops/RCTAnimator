@@ -14,4 +14,6 @@ When distributing a park which has animations build in distribute the RctAnimato
 
 ## Changelog
 
+0.7 - Small bugfix for setting triggers
+
 0.6 - Initial public version
